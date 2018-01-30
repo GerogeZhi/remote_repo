@@ -9,7 +9,7 @@ once you get the hang of _it_ , you just :
 - write your doc  
 - Done!  
 
-Big Tent:  
+**_Big Tent_**:  
 ![Image](https://github.com/GerogeZhi/remote_repo/blob/master/big%20tent.PNG)  
 
 
