@@ -27,7 +27,7 @@ print(markdown)
 - unorder sub list  
 3. anotehr item  
 
-`table`
+`table`  
 tables | are | cool  
 --- | --- | ---  
 _still_ | `renders` | __nicely__  
