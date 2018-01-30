@@ -13,7 +13,7 @@ Big Tent:
 ![Image](https://github.com/GerogeZhi/remote_repo/blob/master/big%20tent.PNG)  
 
 
-## what
+## small size title
 `console.writeline(hello markdown)`  
 
 > blockquote  
@@ -22,7 +22,7 @@ print('that's awesome')
 print(markdown)
 ```  
 
-### small size title  
+### smaller size title  
 1. first  
 2. second  
 - unorder sub list  
