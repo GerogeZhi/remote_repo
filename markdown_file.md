@@ -28,7 +28,7 @@ print(markdown)
 3. anotehr item  
 
 `table`  
-table | are | cool  
---- | --- | ---
-still | render | nicely  
-1 | 2 | 3 
+tables  | are   | cool  
+--- | --- | --- 
+_still_ | `renders` | __nicely__
+1 | 2 | 3  
