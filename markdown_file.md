@@ -10,7 +10,8 @@ once you get the hang of _it_ , you just :
 - Done!  
 
 Big Tent:  
-![Image]()  
+![Image](https://github.com/GerogeZhi/remote_repo/blob/master/big%20tent.PNG)  
+
 
 ## what
 `console.writeline(hello markdown)`  
