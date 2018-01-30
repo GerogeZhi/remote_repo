@@ -1,0 +1,89 @@
+
+
+#Working with Git Locally
+#create a modified new file in master
+
+cd my_repo
+git status
+git init	# On branch master
+git status
+whatever > new.txt	# creat a newfile,Untracked
+dir
+git status
+git add new.txt	# staged (git add .)to stage all files
+git commit -m "add a new file"	# tracked
+git status
+# After modify file
+git status	# modified Unstaged
+git add new.txt
+git status	modified	# staged
+git commit -m "add my name to new.txt"	# tracked
+git log	#summary
+
+
+#Working with Git Branches locally
+#merge a new branch to master
+
+git branch	# what branch we are currently on
+git checkout -b my_branch	# checkout to switch between branches
+git branch	# -b create new branch
+whatever > new_branch_file.txt	#creat a newfile,Untracked
+git add new_branch_file.txt		# staged
+git commit -m "add new_branch_file"	#tracked
+git checkout master #switch ot master
+git branch --no-merged #To see what branches are not merged
+git merge --no-ff my_branch -m "merge branch"	#merge branch to master
+git branch -D my_branch	# remove the branch
+
+#summary
+'''
+git status - checks the state of a repo
+git add - stages updates
+git commit - commits updates
+git checkout - switches branch
+git branch - lists existing branches
+git log - shows commit history
+'''
+
+#Working With Git And Remote Repo
+
+#first create a new repository: remote_repo
+git clone [URL]	#copy the remote repo to machine
+cd remote_repo
+git status #origin/master is the clone of the remote master branch on machine
+whatever > demo.txt
+git add demo.txt
+git commit -m "add a text file"
+git status	#commit to localy
+git push -u origin master	#send our updates to the remote repo
+#The -u parameter tells Git to set origin/master as the upstream repo and means
+#we don't have to keep specifying it from now on.
+git status	#already in sync
+
+#then make some changes on demo.txt(remote)
+git fetch origin #checking for updates on that remote repo
+git remote -v #show that origin is pointing to remote repo on github
+git status	#reveals that edit we did on the server behind by 1 commit
+git pull	#incorporates the changes from a remote repository into the current branch.
+
+#the make some changes on demo.txt(locally)
+git add demo.txt
+git commit -m "update from local copy"
+git fetch origin #reveal whether more changes have happened on the server since you last sync
+git status	#we are now ahead of the remote repo by one commit. 
+git push	#publish our local commits,done!
+
+#summary
+#git fetch, git push and git pull 
+
+
+
+
+
+
+
+
+
+
+
+
