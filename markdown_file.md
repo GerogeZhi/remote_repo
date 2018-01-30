@@ -12,7 +12,7 @@ once you get the hang of _it_ , you just :
 Big Tent:  
 ![Image]()  
 
-# what
+## what
 `console.writeline(hello markdown)`  
 
 > blockquote  
@@ -20,3 +20,15 @@ Big Tent:
 print('that's awesome')
 print(markdown)
 ```  
+
+###small size title  
+1. first  
+2. second  
+- unorder sub list  
+3. anotehr item  
+
+`table`
+tables | are | cool
+--- | --- | --- 
+still | renders | nicely
+1 | 2 | 3
