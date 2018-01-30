@@ -21,7 +21,7 @@ print('that's awesome')
 print(markdown)
 ```  
 
-###small size title  
+### small size title  
 1. first  
 2. second  
 - unorder sub list  
@@ -32,4 +32,13 @@ print(markdown)
 tables | are | cool
 -- | -- | --
 still | render | nicely
-1|2|3
+1|2|3  
+
+> let's write another table  
+
+practice | another | table
+-- | -- | --
+col3 is | right | $100
+col2 is | centered | $10
+col1 are | neat | $1
+
