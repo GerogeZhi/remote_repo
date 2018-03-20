@@ -1,4 +1,4 @@
-
+everyone is a copy, connect, and Go.
 
 #Working with Git Locally
 #create a modified new file in master
