@@ -1,4 +1,5 @@
 here is some text we're adding int demo.txt
-then make some chnages here
+then make some changes here
 make some changes again
 make some changes again and again
+make some changes here again
