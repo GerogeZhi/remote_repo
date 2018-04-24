@@ -38,10 +38,10 @@ still | render | nicely
 Attribute&Method | Male(性别)  | Smiling(微笑)  | MouthOpen(张嘴)  | EyeGlasses(眼镜)  | Young(年轻)  | Attractive(魅力) 
 -- | -- | -- | -- | -- | -- | --
 FaceTracer[5] | 84 |  78 | 77 | 90 | 80 | 79 
-Deep SPN[12] | 92 | 91 | 77 | 93 | 83 | _90_ 
+Deep SPN[12] | 92 | 91 | 77 | 93 | 83 | __90__ 
 PANDA[11] | 86 | 77 | 74 | 84 | 76 | 78 
 LNet+ANet[13]| 94 | 91 | 82 | 95 | 86 | 89 
-Our method |  _97_ | _92_ | _94_ | _99_ | _87_ | 82 
+Our method |  __97__ | __92__ | __94__ | __99__ | __87__ | 82 
 
 
 
