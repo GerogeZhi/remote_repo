@@ -1,8 +1,1 @@
-here is some text we're adding int demo.txt
-then make some changes here
-make some changes again
-make some changes again and again
-make some changes here again
-Make some changes here again and again
-make some changes on remote_repo
-Make some changes on locally
+add some content
